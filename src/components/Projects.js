@@ -10,7 +10,7 @@ import boot3 from '../images/boot3.jpg';
 import word1 from '../images/word1.png';
 import word2 from '../images/word2.png';
 import word3 from '../images/word3.jpg';
-import 'bootstrap/dist/css/bootstrap.css';
+
 
 
 class Projects extends Component {
