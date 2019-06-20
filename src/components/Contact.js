@@ -10,9 +10,9 @@ class Contact extends Component {
             <div className="contact-body">
                <Grid className="contact-grid">
                     <Cell col={6}>
-                        <h2>Okoye Chikwado</h2>
+                        <h2>Nworie Chikwado E.</h2>
                         <img src={img} alt="avatar" style={{height:'250px',opacity:'.8',borderRadius:'10px'}}/>
-                        <p style={{width:'75%',margin:'auto',paddingTop:'1em'}}>For your project you can contact me!</p>
+                        <p style={{width:'75%',margin:'auto',paddingTop:'1em',fontSize:'16px'}}>For your project you can contact me!</p>
                     </Cell>
 
                     <Cell col={6}>
@@ -21,30 +21,31 @@ class Contact extends Component {
                         <div className="contact-list">
                         <List>
                             <ListItem>
-                                <ListItemContent style={{fontSize:'32px',fontFamily:'Anton'}}>
-                                <i className="fa fa-phone-square" aria-hidden="true"></i>
-                                (+234) 81 025 522 91
+                                <ListItemContent>
+                                <i className="fa fa-phone-square" aria-hidden="true"> <span style={{fontSize:'28px',fontFamily:'Signika',fontWeight:'700'}}>(+234) 81 025 522 91</span></i>
+                                
                                 </ListItemContent>
                             </ListItem>
 
                             <ListItem>
-                                <ListItemContent style={{fontSize:'20px',fontFamily:'Anton'}}>
-                                <i className="fa fa-twitter-square" aria-hidden="true"></i>
-                                https://twitter.com/ChikwadoOkoye1
+                                <ListItemContent>
+                                <i className="fa fa-twitter-square" aria-hidden="true"> <span style={{fontSize:'28px',fontFamily:'Signika',fontWeight:'700'}}>twitter.com/ChikwadoOkoye1</span></i>
+                                
+                                
                                 </ListItemContent>
                             </ListItem>
 
                             <ListItem>
-                                <ListItemContent style={{fontSize:'28px',fontFamily:'Anton'}}>
-                                <i className="fa fa-envelope" aria-hidden="true"></i>
-                                Chikwadonworie@gmail.com
+                                <ListItemContent>
+                                <i className="fa fa-envelope" aria-hidden="true"> <span style={{fontSize:'28px',fontFamily:'Signika',fontWeight:'700'}}>Chikwadonworie@gmail.com</span>
+                                </i>
                                 </ListItemContent>
                             </ListItem>
 
                             <ListItem>
-                                <ListItemContent style={{fontSize:'28px',fontFamily:'Anton'}}>
-                                <i className="fa fa-address-card" aria-hidden="true"></i>
-                                 7 Factory Road Aba
+                                <ListItemContent>
+                                <i className="fa fa-address-card" aria-hidden="true"> <span style={{fontSize:'28px',fontFamily:'Signika',fontWeight:'700'}}>7 Factory Road Aba</span>
+                                </i>
                                 </ListItemContent>
                             </ListItem>
                         </List>

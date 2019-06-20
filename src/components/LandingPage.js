@@ -7,16 +7,16 @@ class Landing extends Component {
     state = {  }
     render() { 
         return ( 
-            <div style={{width:'100%', margin:'auto',top:'20px'}} >   
+            <div>   
                 <Grid className="landing-grid">
                     <Cell col={12}>
                      <img src={myImg} className="avatar-img" alt="myimage"/>
 
                      <div className="banner-text">
-                        <h1>Full Stack JavaScript Developer</h1>
+                        <h1>Full Stack JavaScript Developer.</h1>
 
                         <hr/>
-                        <p>HTML/CSS | Bootstrap | Javascript | ReactJS</p>
+                        <p>HTML5/CSS3 | Bootstrap4 | Javascript | ReactJS</p>
                         <div className="social-links">
                             <a href="https://www.linkedin.com/in/chikwado-okoye-b8a958152/" rel="noopener noreferrer" target="_blank" >
                                  <i class="fa fa-linkedin-square"></i>

@@ -1,7 +1,7 @@
 body {
-  height: 100%;
-  width: 100%;
   text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Signika', sans-serif !important;
 }
 
 body a:hover{
@@ -19,11 +19,11 @@ body a:hover{
   background: #c31432;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background-size: cover;
   text-align: center;
-  position: fixed;
+ 
   
-  left:0; 
+  margin: -60px auto !important;
   width: 100vw;
   height: 100vh;
 }
@@ -34,6 +34,12 @@ body a:hover{
   border-top-left-radius: 50%;
   border-bottom-right-radius: 50%;
   opacity: 0.8;
+  transition: all .5;
+  
+}
+
+.avatar-img:hover{
+  transform: scale(.95);
 }
 
 .banner-text{
@@ -44,12 +50,16 @@ body a:hover{
   border-radius: 10px;
   
 }
-
+.software_p{
+  line-height:30px;
+  font-size:16px;
+}
 .banner-text h1{
   font-size: 66px;
   font-weight: bold;
   color: white;
   text-align: center;
+  font-family: 'Signika', sans-serif !important;
 }
 
 .banner-text hr {
@@ -87,7 +97,7 @@ body a:hover{
 
 .contact-body{
   margin: auto;
-  position: fixed;
+ 
   width: 100%;
   height: 100%;
   justify-content: center;
@@ -105,11 +115,11 @@ body a:hover{
 }
 
 .contact-grid h2 {
-  font-family: 'Anton',sans-serif;
+  font-family: 'Signika', sans-serif !important;
 }
 
 .contact-grid p {
-  font-family: 'Oxygen',sans-serif;
+  font-family: 'Signika', sans-serif !important;
   font-weight: bold;
 }
 
@@ -121,9 +131,11 @@ body a:hover{
 
 }
 
+
 .contact-list i{
   font-size: 66px;
-  padding-right: 5rem;
+  display:inline !important;
+  padding-left: 10px;
 }
 
 .resume-right-col{
@@ -136,7 +148,98 @@ body a:hover{
 
 
 
+@media(max-width:600px){
 
+
+  
+  .landing-grid{
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    text-align: center;
+   
+   
+
+    height: 579px !important;
+    margin: 0px auto !important;
+
+  }
+
+  .avatar-img{
+    height: 190px !important;
+    padding-top: 5em;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    opacity: 0.9;
+    transition: all .5;
+    
+  }
+
+  .banner-text h1{
+    font-size: 2rem !important;
+    font-weight: 700 !important;
+    color: white;
+    text-align: center;
+  }
+  
+  .banner-text hr {
+   border-top:5px dotted white;
+    width: 50%;
+    margin: auto;
+   
+  }
+  
+  .banner-text p {
+    color:white;
+    font-size: 20px;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  .social-links{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+  
+  }
+  
+  .social-links i{
+    color: white;
+    font-size: 5em;
+    padding: 8px; 
+  }
+
+
+
+
+  .contact-body{
+    margin: auto;
+   
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+  }
+  
+  
+  .contact-list i{
+    font-size: 23px !important;
+  }
+
+  .contact-list span{
+    font-size: 16px !important;
+  }
+
+
+  .resume_h2{
+    font-size:36px;
+  }
+  
+  
+}
 
 
 

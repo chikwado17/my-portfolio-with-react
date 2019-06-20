@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div className="demo-big-content">
     <Layout>
-        <Header className="header-color" title={<NavLink style={{textDecoration:'none',color:'white'}} to="/">Portfolio</NavLink>}     scroll>
+        <Header className="header-color" title={<NavLink style={{textDecoration:'none',color:'white'}} to="/">N C E</NavLink>}     scroll>
             <Navigation>
                 <NavLink activeClassName="is-active" exact={true} to="/">Home</NavLink>
                 <NavLink activeClassName="is-active" to="/resume">Resume</NavLink>
@@ -18,7 +18,7 @@ class App extends Component {
                 <NavLink activeClassName="is-active" to="/contact">Contact</NavLink>
             </Navigation>
         </Header>
-        <Drawer title={<NavLink to="/" style={{textDecoration:'none',color:'black'}}>Portfolio</NavLink>}>
+        <Drawer title={<NavLink to="/" style={{textDecoration:'none',color:'black'}}>N C E</NavLink>}>
             <Navigation>
                 <NavLink activeClassName="is-active" to="/">Home</NavLink>
                 <NavLink activeClassName="is-active" to="/resume">Resume</NavLink>
